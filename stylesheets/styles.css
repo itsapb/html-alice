@@ -1,0 +1,46 @@
+h1 {
+  font-family: 'Days One', sans-serif;
+  font-size: 250px;
+  width: 150px;
+  height: auto;
+  flex: 1;
+}
+
+img {
+  width: 76vh;
+  height:auto;
+  position: fixed;
+  z-index: -1;
+}
+
+.green {
+  color: #D5D507;
+}
+
+.pink {
+color: #F8BECC;
+}
+
+.yellow {
+color: #FFD00A;
+}
+
+.blue {
+color: #0A68E2;
+}
+
+.red {
+  color: #FF4702;
+}
+
+@media all and (max-width: 800px) {
+  h1 {font-size:150px;}
+}
+
+@media all and (max-width: 600px) {
+  h1 {font-size:120px;}
+}
+
+@media all and (max-width: 400px) {
+  h1 {font-size:100px;}
+}
